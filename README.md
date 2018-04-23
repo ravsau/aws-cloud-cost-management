@@ -20,7 +20,8 @@ For example, for most startups, Cloud probably is the best option. Then you have
 - Conversely, checkout the Reserved Instance Marketplace for deals on EC2 reserved instances.
 - My DynamoDB use until now has been covered by the free tier limits. But I've seen some examples where people save considerable money by moving from DynamoDB to somethings else for their data Storage. 
 - Used Glacier for long term storage, Reduced reduncy storage for objects that can be reproduced.
-- Using Cloudfront 
+- Use Lifecycle policies to transitions objects from S3 standard --> IA--> Glacier
+-
 
 
 

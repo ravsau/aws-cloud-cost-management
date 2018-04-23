@@ -4,7 +4,8 @@ I've seen both sides of arguements on whether the cloud is cheaper than on-Premi
 
 The value proposition is different for all businesses. Dropbox saved millions of dollars by moving out of the cloud as you can read in this article:https://www.techrepublic.com/article/dropbox-saved-75m-by-dumping-the-cloud-but-your-company-wont/
 
-The article also says ," If that sounds amazing, it is. It's also highly unlikely that you'll be able to get the same sort of cost savings because, well, you're not Dropbox." 
+The article also says 
+> " If that sounds amazing, it is. It's also highly unlikely that you'll be able to get the same sort of cost savings because, well, you're not Dropbox." 
 
 For example, for most startups, Cloud probably is the best option. Then you can companies like dropbox. That's when you host cloud on a cloud. Situation like this is when companies start to considering moving out of the cloud to save even more.
 

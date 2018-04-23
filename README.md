@@ -11,7 +11,7 @@ For example, for most startups, Cloud probably is the best option. Then you have
 
 
 
-# TIPS save money on your AWS bill?
+# Tips to save money on your AWS bill
 
 - EIP costs money if it's not attached to anything or is attached to a stopped EC2 instance.
 - Consider buying Reserved capacity for Instances, Tables etc. You pay upfront, for big discounts. 

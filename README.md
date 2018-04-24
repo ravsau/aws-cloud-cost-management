@@ -40,6 +40,8 @@ https://d1.awsstatic.com/pricing/AWS_CO_Playbook_Final.pdf
 - Used Glacier for long term storage, Reduced reduncy storage for objects that can be reproduced.
 - Use Lifecycle policies to transitions objects from S3 standard --> IA--> Glacier
 - Consolidate your billing to get group discount.
+- Consider Using VPC endpoints , especially if you're using NAT Gateway with a lot of traffic. Just by switiching to VPC endpoints, businesses can save thousands of dollars per months as mentioned in this article:https://bluesentryit.com/gain-real-savings-proper-cloud-setup/
+-  Use Lambda to turn off dev/test environments in the weekends/evenings. 
 
 
 

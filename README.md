@@ -9,7 +9,7 @@ The article also says
 
 For example, for most startups, Cloud probably is the best option. Then you have companies like dropbox. That's when you host cloud on a cloud. Situation like this is when companies start to considering moving out of the cloud to save even more.
 
-# CORE PILLARS OF OPTIMIZATION ( According to the AWS Cost Optimization Playbook, Jan 2018)
+## CORE PILLARS OF COST OPTIMIZATION ( According to the AWS Cost Optimization Playbook, Jan 2018)
 • Right sizing: Provisioning the right services for
 given workloads.\
 • Elasticity: Growing and shrinking consumption based
@@ -18,6 +18,13 @@ on volume- and time-based needs.\
 Spot Instances efectively.\
 • Storage optimization: Choosing the right storage tier
 for the workload.
+
+## BEST PRACTICES FOR COST OPTIMIZATION ( According to the AWS Cost Optimization Playbook, Jan 2018)
+• Defne and enforce cost allocation tagging. Tagging enables the assignment of custom metadata to instances,images, and other resources. For example, resources can be categorized by owner, purpose, or environment, helpingto organize them and assign cost accountability. Tagging taxonomy and enforcement should be determined as early as possible in the adoption for cloud services.
+• Use efective account structures. For many organizations,a consolidated billing strategy where all AWS accounts are paid through one master account facilitates simplifed payments, maximizes volume discounts, and makes it possible to share Reserved Instance benefts across linked accounts. AWS Organizations enables the creation of groups of AWS accounts, with central policy management and consolidated billing. 
+• Defne and use metrics. Set targets and review progress against them at a set cadence.
+• Enable teams to architect for cost. Employ training, visualization of progress goals, and balance of incentives.
+• Assign optimization responsibility to cloud center of excellence (CCoE). A CCoE is charged with overseeing the quality and cost-efectiveness of cloud transformation eforts. It can start small and evolve with the organization’s needs.Having one locus of responsibility for cloud excellence can drive greater cost and value optimization.
 
 ### AWS Cost Optimization Playbook ( Jan 2018)
 https://d1.awsstatic.com/pricing/AWS_CO_Playbook_Final.pdf

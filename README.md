@@ -31,7 +31,7 @@ https://d1.awsstatic.com/pricing/AWS_CO_Playbook_Final.pdf
 
 # Tips to save money on your AWS bill
 
-- EIP costs money if it's not attached to anything or is attached to a stopped EC2 instance.
+- Elastic IP(EIP) costs money if it's not attached to anything or is attached to a stopped EC2 instance. Even the cost per hour is tiny, it adds up. 
 - Consider buying Reserved capacity for Instances, Tables etc. You pay upfront, for big discounts. 
 - Consider when you can leverage Spot Instances(They sometimes come at a 90% discount compared to on-demand instance).
 - Even though reserved Instances could save you money, don't buy the wrong type or quantity. You may have to put it on Reserved Instance marketplace for sale.
@@ -40,8 +40,16 @@ https://d1.awsstatic.com/pricing/AWS_CO_Playbook_Final.pdf
 - Used Glacier for long term storage, Reduced reduncy storage for objects that can be reproduced.
 - Use Lifecycle policies to transitions objects from S3 standard --> IA--> Glacier
 - Consolidate your billing to get group discount.
-- Consider Using VPC endpoints , especially if you're using NAT Gateway with a lot of traffic. Just by switiching to VPC endpoints, businesses can save thousands of dollars per months as mentioned in this article:https://bluesentryit.com/gain-real-savings-proper-cloud-setup/
 -  Use Lambda to turn off dev/test environments in the weekends/evenings. 
+- Consider moving downloadable assets to cloudfront instead of letting people download from your S3 bucket. This will save costs in many cases.
+- Different AWS regions have different price for the services. 
+
+## Understand Data Transfer Costs:
+- Consider Using VPC endpoints , especially if you're using NAT Gateway with a lot of traffic. Just by switiching to VPC endpoints, businesses can save thousands of dollars per months on data transfer costs as mentioned in this article:https://bluesentryit.com/gain-real-savings-proper-cloud-setup/
+
+- Inter region Traffic: EC2 traffic cost between two AZ's is NOT free. It's free within an AZ(only if you're using private IP) . So make a good tradeoff decision considering the need for High availability and Cost minimization.
+
+- Architect your systems so that there is minimal data transfer across AWS regions or availability zones.
 
 
 

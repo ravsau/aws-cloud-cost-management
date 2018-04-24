@@ -9,7 +9,7 @@ The article also says
 
 For example, for most startups, Cloud probably is the best option. Then you have companies like dropbox. That's when you host cloud on a cloud. Situation like this is when companies start to considering moving out of the cloud to save even more.
 
-# Core CORE PILLARS OF OPTIMIZATION ( According to the AWS Cost Optimization Playbook, Jan 2018)
+# CORE PILLARS OF OPTIMIZATION ( According to the AWS Cost Optimization Playbook, Jan 2018)
 • Right sizing: Provisioning the right services for
 given workloads.\
 • Elasticity: Growing and shrinking consumption based

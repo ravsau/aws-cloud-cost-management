@@ -26,12 +26,14 @@ for the workload.\
 - **IAM**
 
 
+
 ## BEST PRACTICES FOR COST OPTIMIZATION ( According to the AWS Cost Optimization Playbook, Jan 2018)
-• __Defne and enforce cost allocation tagging:__ Tagging enables the assignment of custom metadata to instances,images, and other resources. For example, resources can be categorized by owner, purpose, or environment, helpingto organize them and assign cost accountability. Tagging taxonomy and enforcement should be determined as early as possible in the adoption for cloud services.\
+• __Defne and enforce cost allocation tagging:__ Tagging enables the assignment of custom metadata to instances,images, and other resources. For example, resources can be categorized by owner, purpose, teams or environment, helping to organize them and assign cost accountability. Tagging taxonomy and enforcement should be determined as early as possible in the adoption for cloud services.\
 • __Use efective account structures:__ For many organizations,a consolidated billing strategy where all AWS accounts are paid through one master account facilitates simplifed payments, maximizes volume discounts, and makes it possible to share Reserved Instance benefts across linked accounts. AWS Organizations enables the creation of groups of AWS accounts, with central policy management and consolidated billing.\
 • __Defne and use metrics:__ Set targets and review progress against them at a set cadence.\
 • __Enable teams to architect for cost:__ Employ training, visualization of progress goals, and balance of incentives.\
 • __Assign optimization responsibility to cloud center of excellence (CCoE):__ A CCoE is charged with overseeing the quality and cost-efectiveness of cloud transformation eforts. It can start small and evolve with the organization’s needs.Having one locus of responsibility for cloud excellence can drive greater cost and value optimization.
+• **Make Use of the AWS Trusted Advisor service** -- Trusted Advisor has Saved AWS Customers $500 million USD by advising on potential cost savings and reducing inefficiences in AWS resources
 
 ### AWS Cost Optimization Playbook ( Jan 2018)
 https://d1.awsstatic.com/pricing/AWS_CO_Playbook_Final.pdf
@@ -86,6 +88,14 @@ https://blog.cloudability.com/aws-s3-understanding-cloud-storage-costs-to-save/
 
 ## Customer Success Stories:
 1) GE Oil and gas was able to reduce their Total Cost of Ownership to 52% by using moving to the cloud and saved ~15 million USD , using the tools and using metrics to automate and optimize architectre. (See Reference 1)
+
+### Summary
+- Tag resources
+- Automate
+- Build a cost aware culture
+- Monitor
+- Adapt
+- Utilize Elasticity and autoscalign and different pricing models 
 
 ## References:
 1) AWS re:Invent 2017: Optimizing Costs as You Scale on AWS (ENT302)

@@ -1,23 +1,30 @@
-# AWS Cloud Cost Management
+# :cloud: AWS Cloud Cost Management :dollar:
 
 I've seen both sides of arguements on whether the cloud is cheaper than on-Premise and do-it-all-yourself. 
 
-The value proposition is different for all businesses. Dropbox saved millions of dollars by moving out of the cloud as you can read in this article:https://www.techrepublic.com/article/dropbox-saved-75m-by-dumping-the-cloud-but-your-company-wont/
+The value proposition is different for all businesses. Dropbox saved millions of dollars by moving out of the cloud as you can read in this article:\
+https://www.techrepublic.com/article/dropbox-saved-75m-by-dumping-the-cloud-but-your-company-wont/
 
 The article also says 
 > " If that sounds amazing, it is. It's also highly unlikely that you'll be able to get the same sort of cost savings because, well, you're not Dropbox." 
 
 For example, for most startups, Cloud probably is the best option. Then you have companies like dropbox. That's when you host cloud on a cloud. Situation like this is when companies start to considering moving out of the cloud to save even more.
 
-## CORE PILLARS OF COST OPTIMIZATION ( According to the AWS Cost Optimization Playbook, Jan 2018)
-• Right sizing: Provisioning the right services for
-given workloads.\
-• Elasticity: Growing and shrinking consumption based
-on volume- and time-based needs.\
-• Pricing models: Using On Demand, Reserved, and
-Spot Instances efectively.\
-• Storage optimization: Choosing the right storage tier
-for the workload.
+##  CORE PILLARS OF COST OPTIMIZATION ( According to the AWS Cost Optimization Playbook, Jan 2018)
+• **Right sizing:** Provisioning the right services for
+given workloads. Downsize instances if possible to do so while meeting performance requirements. Use Cloudwatch Metrics+ Custom Metrics( for things like Memory Utilization of an EC2 instance to gather usage insight ). Choose the right instance type according to the collected metrics and gathered insights.  Guess-->Learn-->Change and optimize\
+• **Elasticity:** Growing and shrinking consumption based
+on volume- and time-based needs. Turn off dev/test while not required ( weekends/nights). Use Lambda+ Cloudwatch to achieve automated scheduling start/stopping of instances [Click here for video on Lambda+Cloudwatch Events for automated scheduling](https://www.youtube.com/edit?o=U&video_id=EnClBnFARSk) \
+Use Autoscaling for scaling up/down according to the demand(scheduled or as traffic grows --example : site goes viral).\
+• **Pricing models:** Using On Demand, Reserved, and
+Spot Instances efectively. As mentioned in the Reference video no 1: use Reserved(80%), On Demand + Spot(20%)\
+• **Storage optimization:** Choosing the right storage tier
+for the workload.\
+• **Governance , Monitoring , Measurement:**
+
+- **AWS Service Catalog** is a service that allows organizations to create and manage catalogs of IT services that are approved for use on AWS.
+- **IAM**
+
 
 ## BEST PRACTICES FOR COST OPTIMIZATION ( According to the AWS Cost Optimization Playbook, Jan 2018)
 • __Defne and enforce cost allocation tagging:__ Tagging enables the assignment of custom metadata to instances,images, and other resources. For example, resources can be categorized by owner, purpose, or environment, helpingto organize them and assign cost accountability. Tagging taxonomy and enforcement should be determined as early as possible in the adoption for cloud services.\
@@ -72,4 +79,15 @@ https://blog.cloudability.com/aws-s3-understanding-cloud-storage-costs-to-save/
 ## Other things to consider
 
 - Consider that with managed services like RDS  you need fewer engineers to setup a service. Your cloud cost may be higher , but you may need less engineers. 
+- Try to go from paying for what you have --> Paying for what you need.  
+- Build a culture of cost accountability
+
+
+
+## Customer Success Stories:
+1) GE Oil and gas was able to reduce their Total Cost of Ownership to 52% by using moving to the cloud and saved ~15 million USD , using the tools and using metrics to automate and optimize architectre. (See Reference 1)
+
+## References:
+1) AWS re:Invent 2017: Optimizing Costs as You Scale on AWS (ENT302)
+https://www.youtube.com/watch?v=iOWNZqG0RN4&start_radio=1&list=RDiOWNZqG0RN4
 

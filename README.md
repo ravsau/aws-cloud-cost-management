@@ -94,7 +94,8 @@ https://blog.cloudability.com/aws-s3-understanding-cloud-storage-costs-to-save/
 - Automate
 - Build a cost aware culture
 - Monitor
-- Adapt
+- Measure
+- Improve
 - Utilize Elasticity and autoscalign and different pricing models 
 
 ## References:

@@ -45,7 +45,7 @@ https://d1.awsstatic.com/pricing/AWS_CO_Playbook_Final.pdf
 - Consider when you can leverage Spot Instances(They sometimes come at a 90% discount compared to on-demand instance).
 - Even though reserved Instances could save you money, don't buy the wrong type or quantity. You may have to put it on Reserved Instance marketplace for sale.
 - Conversely, checkout the Reserved Instance Marketplace for deals on EC2 reserved instances.
-- My DynamoDB use until now has been covered by the free tier limits. But I've seen some examples where people save considerable money by moving from DynamoDB to somethings else for their data Storage. 
+- My DynamoDB use until now has been covered by the free tier limits. But I've seen some examples where people save considerable money by moving from DynamoDB to somethings else for their data Storage. Use Simple monthly calculator to find out S3 vs DynamoDB costs for stroage depending on access patterns: https://calculator.s3.amazonaws.com/index.html
 - Used Glacier for long term storage, Reduced reduncy storage for objects that can be reproduced.
 - Use Lifecycle policies to transitions objects from S3 standard --> IA--> Glacier
 - Consolidate your billing to get group discount.
@@ -98,6 +98,9 @@ https://blog.cloudability.com/aws-s3-understanding-cloud-storage-costs-to-save/
 - Improve
 - Utilize Elasticity and autoscalign and different pricing models 
 
+
+### AWS Tools and services for cost management
+- Simple monthly calculator: https://calculator.s3.amazonaws.com/index.html
 ## References:
 1) AWS re:Invent 2017: Optimizing Costs as You Scale on AWS (ENT302)
 https://www.youtube.com/watch?v=iOWNZqG0RN4&start_radio=1&list=RDiOWNZqG0RN4

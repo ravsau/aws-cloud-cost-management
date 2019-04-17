@@ -16,5 +16,11 @@
   - engineers make descisions
   - preocuement approves
   - long cycle 
-- 
-
+- automate efficiencies  
+- cost aware architecture 
+- storage optimization
+- tagging strategy
+- account strategy
+  - BU structure
+  - environment lifecycle 
+  - project based structure

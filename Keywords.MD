@@ -11,4 +11,10 @@
 - Lifecycle Policy
 - Right Sizing 
 - operationalize 
+- measure and monitor
+- internalize and understand cloud procurement
+  - engineers make descisions
+  - preocuement approves
+  - long cycle 
+- 
 

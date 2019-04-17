@@ -10,3 +10,5 @@
 - Retiring, Expiring 
 - Lifecycle Policy
 - Right Sizing 
+- operationalize 
+

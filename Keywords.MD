@@ -24,3 +24,5 @@
   - BU structure
   - environment lifecycle 
   - project based structure
+    - devops
+    

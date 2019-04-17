@@ -1,5 +1,11 @@
 # :cloud: AWS Cloud Cost Management :dollar:
 
+## Youube Cost Optimization Playlist
+https://www.youtube.com/playlist?list=PLQP5dDPLts650KRU0yhf8SHheMjsdreqj
+
+
+
+
 I've seen both sides of arguements on whether the cloud is cheaper than on-Premise and do-it-all-yourself. 
 
 The value proposition is different for all businesses. Dropbox saved millions of dollars by moving out of the cloud as you can read in this article:\

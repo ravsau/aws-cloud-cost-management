@@ -111,3 +111,14 @@ https://blog.cloudability.com/aws-s3-understanding-cloud-storage-costs-to-save/
 1) AWS re:Invent 2017: Optimizing Costs as You Scale on AWS (ENT302)
 https://www.youtube.com/watch?v=iOWNZqG0RN4&start_radio=1&list=RDiOWNZqG0RN4
 
+---
+
+## More from CloudYeti
+
+| Resource | Link |
+|----------|------|
+| **AWS CLI Course on Udemy** (32K+ students, 4.5★) | [Enroll for $9.99](https://www.udemy.com/course/aws-cli-course/?referralCode=16426B3D9228F18FD52A) |
+| **AI Cert Practice Exams** (500+ questions) | [learn.cloudyeti.io](https://learn.cloudyeti.io) |
+| **YouTube Channel** (15K+ subscribers) | [CloudYeti on YouTube](https://www.youtube.com/@yourcloudyeti) |
+| **All Courses** | [cloudyeti.io/courses](https://cloudyeti.io/courses) |
+
